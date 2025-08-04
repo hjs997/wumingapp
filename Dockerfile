@@ -4,7 +4,8 @@ WORKDIR /home/choreouser
 
 EXPOSE 3000
 
-COPY files/ /home/choreouser/
+COPY package.json /home/choreouser/
+COPY app.js /home/choreouser/
 
 RUN apt-get update &&\
     apt install --only-upgrade linux-libc-dev &&\
