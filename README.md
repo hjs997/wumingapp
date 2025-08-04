@@ -1,1 +1,2 @@
-# wumingapp
+# wumingapp is test
+-=- http
