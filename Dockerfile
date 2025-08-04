@@ -16,6 +16,6 @@ RUN apt-get update &&\
     chmod +x app.js &&\
     npm install
 
-CMD ["npm", "start"]
+CMD [ "node", "app.js" ]
 
 USER 10008
